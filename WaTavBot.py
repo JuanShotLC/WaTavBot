@@ -11,7 +11,8 @@ logger = logging.getLogger(__name__)
 from telegram import *
 from telegram.ext import *
 #TOKEN = "688638504:AAEInD-EFrYbKkw6tlJBIIpRmQsBJRbpTio" #TavernKeeperBot
-TOKEN = "1184989658:AAFZfzq2y-lV29GjpVJfiXaH01qQBhdwyRI" #WaTavBot
+#TOKEN = "1184989658:AAFZfzq2y-lV29GjpVJfiXaH01qQBhdwyRI" #WaTavBot
+TOKEN = "1623058330:AAGsL076jnv3FIiRHEgJyfumeCmmMiSasHA" #Test
 # Create the Updater and pass it your bot's token.
 updater = Updater(TOKEN, use_context=True)
 (ME,    MEINFO,     MEWEAPONS,
